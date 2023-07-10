@@ -1,0 +1,54 @@
+.main{
+    display: flex;
+}
+
+.ordered-list-col{
+   margin-left: 10px;
+}
+
+.list-grid-ul{
+    display: grid;
+    width: fit-content;
+    grid-template-columns: repeat(5,100px);
+    grid-template-rows: 40px auto ;
+    column-gap: 2px;
+    background-color: black;
+    border: 1px solid black;
+}
+
+.list-header{
+    background-color: #3A5C77;
+    margin: 0px;
+    padding: 0px;
+}
+.list-grid-ul h5{
+    text-align: center;
+    color: white;
+}
+
+.list{
+    margin: 0px;
+    background-color: white;
+}
+
+.list-decimal{
+    list-style-type: decimal;
+}
+
+.list-disc{
+    list-style-type: disc;
+}
+
+.list-circle{
+    list-style-type: circle;
+}
+
+.list-square{
+    list-style-type: square;
+}
+
+.list-none{
+    list-style-type: none;
+}
+
+
